@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports: ["5678:5678"]
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    env_file: .env
+    restart: unless-stopped
+
+  screenshot:
+    build: ./screenshot_service
+    ports: ["8000:8000"]
+    volumes:
+      - ./screenshot_service/cookies.json:/app/cookies.json:ro
+    env_file: .env
+    restart: unless-stopped
