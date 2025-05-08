@@ -1,0 +1,5 @@
+# config/tradingview.yaml
+# This file holds TradingView-specific config values.
+tradingview:
+  username: tradingw999
+  layout_id: fmAXpQES

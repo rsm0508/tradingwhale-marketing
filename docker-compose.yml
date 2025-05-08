@@ -1,17 +1,34 @@
 version: "3.8"
+
 services:
   n8n:
     image: n8nio/n8n:latest
-    ports: ["5678:5678"]
+    container_name: n8n-marketing
+    ports:
+      - "15678:5678"  # use a non-default external port to avoid conflicts
     volumes:
       - ./n8n_data:/home/node/.n8n
     env_file: .env
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
     restart: unless-stopped
 
   screenshot:
     build: ./screenshot_service
-    ports: ["8000:8000"]
+    container_name: screenshot-service
+    ports:
+      - "18000:8000"  # custom external port
     volumes:
       - ./screenshot_service/cookies.json:/app/cookies.json:ro
     env_file: .env
+    depends_on:
+      - n8n
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
     restart: unless-stopped

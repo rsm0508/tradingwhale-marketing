@@ -1,0 +1,23 @@
+# Core backend
+fastapi
+uvicorn
+playwright
+openai
+httpx
+python-dotenv
+
+# Image + video processing
+pillow
+ffmpeg-python
+
+# Bots + social integration
+python-telegram-bot
+discord.py
+praw
+requests
+
+# Optional: cron tasks, logging, etc.
+schedule
+pydantic
+stripe
+pydantic

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "__gads",
+    "value": "ID=656dcf66108ebd38:T=1719767189:RT=1721326760:S=ALNI_MbPN3fj6KQJwTIUR1rvnyNYBM2kAw",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326760,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "__gpi",
+    "value": "UID=00000e5cbcc67753:T=1719767189:RT=1721326760:S=ALNI_MarIHzNJo9bq_y6pS74cgH-4NSMhQ",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326760,
+    "httpOnly": false,
+    "secure": true
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.815388086.1680276887",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1719767187,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "_ga_YVVRYGL0E0",
+    "value": "GS2.1.s1746406073$o486$g1$t1746407863$j60$l0$h0",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326760,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "sessionid",
+    "value": "m28eco4yju4t6isn3j7fqtn8ebs3vylh",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326761,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "sessionid_sign",
+    "value": "v3:nCM+TQMFL1ahXgdCHVSHO9Ik4HrBZeWjIkr+I9P1kPc=",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326761,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "theme",
+    "value": "dark",
+    "domain": ".tradingview.com",
+    "path": "/",
+    "expires": 1741326766,
+    "httpOnly": false,
+    "secure": false
+  }
+]
