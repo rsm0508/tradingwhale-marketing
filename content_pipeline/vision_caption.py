@@ -1,3 +1,5 @@
+# content_pipeline/vision_caption.py
+
 import openai, os, base64
 
 def caption_image(image_path: str) -> str:
