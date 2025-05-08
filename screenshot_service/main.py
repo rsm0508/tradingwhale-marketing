@@ -1,3 +1,5 @@
+# screenshot_service/main.py
+
 from fastapi import FastAPI, Query
 from starlette.responses import JSONResponse
 from playwright.async_api import async_playwright
