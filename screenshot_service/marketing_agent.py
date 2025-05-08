@@ -1,3 +1,5 @@
+# screenshot_service/marketing_agent.py
+
 import os
 import openai
 
